@@ -73,7 +73,7 @@ header .profile-image {
   border: 10px dotted white;
   transition: all .5s;
 }
-header .profile-image:hover {
+ .profile-image:hover {
   transform: scale(1.2) rotate(30deg);
 }
 .tag {
@@ -205,11 +205,17 @@ a.social:hover {
 
 }
 
-.interests {
+.experience {
   list-style-position: inside;
 
 
 
 }
 
+/*Styles for About Me Page*/
+
+.about {
+  background-image: none;
+
+}
 
